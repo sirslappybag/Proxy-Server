@@ -111,7 +111,7 @@ void *client_handler(void *sock_desc)
 	socklen_t addr_len = sizeof(addr_info);
 	int recv_msg_size, bl;
 	int send_len,bytes_sent, flag;
-	char buf[BUF_SIZE], code[80], servAdd[30], ipAdd[15], modBuf[BUF_SIZE];
+	char buf[BUF_SIZE], code[80], servAdd[40], ipAdd[20], modBuf[BUF_SIZE];
 	int select_ret;
             
 		
